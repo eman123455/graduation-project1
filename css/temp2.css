@@ -1,0 +1,109 @@
+body{
+    background-image: url(../images/3.jpg);
+    background-size: cover;
+    margin-top: 95px;
+}
+h1{
+    /* text-align: center; */
+    color: white;
+    font-weight: bolder;
+   position: relative;
+   left: 42%;
+  font-size: 50px;
+}
+form{
+position: absolute;
+left: 30%;
+background-color: white;
+width: 500px;
+padding: 30px;
+border-radius: 30px;
+}
+
+form p{
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -25px;
+    color: #777;
+
+}
+
+form .input,.input1{
+    width: 100%;
+    height: 55px;
+    border-radius: 10px;
+    background-color: #9e9e9e1f;
+    border-color: #9e9e9e1f;
+}
+form .file{
+}
+
+form textarea{
+    width: 100%;
+    height: 125px;
+    border-radius: 10px;
+    background-color: #9e9e9e1f;
+    border-color: #9e9e9e1f;
+}
+ input,textarea:hover{
+    border-color: #9e9e9ee5;
+    
+ }
+ form label{
+    color: #000000c2;
+    font-weight: bold;
+ }
+
+ form .input1{
+    background-color: #356033;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+ }
+form .type{
+    display: flex;
+    justify-content: space-between;
+}
+
+ @media (max-width: 767px){
+form {
+    position: absolute;
+    left: -4%;
+    width: 300px;
+    margin: 40px;
+    margin-top: -8px;}}
+ @media (min-width:768px){
+    
+ }
+ @media (min-width:992px){
+
+ }
+header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+header a{
+    text-decoration: none;
+    color: #333;
+    background-color: white;
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 0 30px 10px;
+    border-radius: 5px;
+}
+header a:hover{
+    background-color: #333;
+    color: white;
+    border-color: #333;
+}
+ header .log{
+    width: 70px;
+    height: 70px;
+  }
+
